@@ -1,0 +1,16 @@
+#game {
+    height: 570px;
+    width: 900px;
+    background-image: url('assets/background.png');
+    background-size: contain;
+    background-position: bottom;
+    border: black solid 4px;
+    border-radius: 3px;
+    margin: 4rem auto;
+    overflow: hidden;
+    position: relative;
+}
+
+body {
+    
+}
