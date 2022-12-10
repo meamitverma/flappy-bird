@@ -12,5 +12,56 @@
 }
 
 body {
-    //amit
+    background-color: #e1f2de;
+}
+
+#pipe1 {
+    position: absolute;
+    width: 52px;
+    height: 50%;
+    background-image: url('assets/pipe.png');
+    transform: rotate(180deg);
+}
+
+#pipe2 {
+    position: absolute;
+    width: 52px;
+    height: 50%;
+    top: 80%;
+    background-image: url('assets/pipe.png');
+}
+
+.obs {
+    left: 95%;
+    animation: move 4s ease-in-out infinite;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@keyframes move {
+    0%{
+        left: 100%;
+    }
+    100%{
+        left: -6%;
+    }
+}
+
+#bird {
+    position: absolute;
+    top: 200px;
+    left: 90px;
+}
+
+/* #bird img {
+    height: 60px;
+    width: 80px;
+} */
+
+#score {
+    color: white;
+    font-size: x-large;
+    font-weight: bold;
+    margin-left: 2%;
+    margin-top: 2%;
 }
