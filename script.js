@@ -57,7 +57,7 @@ function checkCollision(elm1, elm2) {
 }
 
 setInterval(() => {
-    if (checkCollision(document.getElementById('bird')), document.getElementById('pipe1')) {
+    if (checkCollision(document.getElementById('bird'), document.getElementById('pipe1'))) {
         elem.style.top = 512 + 'px'
         setTimeout(() => {
             alert('You Lost! Your score is ' + score)
@@ -65,7 +65,7 @@ setInterval(() => {
         }, 10)
         window.location.reload()
     }
-    else if (checkCollision(document.getElementById('bird')), document.getElementById('pipe2')) {
+    else if (checkCollision(document.getElementById('bird'), document.getElementById('pipe2'))) {
         elem.style.top = 513 + 'px'
         setTimeout(() => {
             alert('You Lost! Your score is ' + score)
